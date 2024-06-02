@@ -1,0 +1,102 @@
+.banner-img {
+  margin-top: 60px;
+}
+
+.home-page h1 {
+  color: #333333;
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.home-page .card {
+  background-color: #f5f5f5;
+  width: 18rem;
+  border-radius: 10px;
+  margin: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.home-page .card-price {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.home-page button {
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-page button:hover {
+  background-color: #0056b3;
+}
+
+.home-page .card-text {
+  color: #5a5959;
+  padding: 10px;
+}
+
+.home-page .card-img-top:hover {
+  transform: scale(0.95);
+}
+
+.filters h4 {
+  margin-top: 60px;
+  color: #333333;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+}
+
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 8px;
+}
+
+.ant-checkbox-wrapper,.ant-radio-wrapper {
+  margin: 2px;
+}
+
+.ant-radio-wrapper {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.filters button {
+  background-color: #000000;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loadmore {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 20px;
+}

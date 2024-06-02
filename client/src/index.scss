@@ -1,0 +1,160 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important; /* Adjusted border */
+  background-color: #f4f4f4; /* Set background color to opaque white */
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif; /* Updated font family */
+  letter-spacing: 3px;
+}
+
+/* Search form styles */
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form input {
+  border: none;
+  border-radius: 0;
+}
+
+.search-form button {
+  background-color: #000000;
+  border-radius: 0;
+  color: white;
+}
+
+/* Footer styles */
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000;
+  background: -webkit-linear-gradient(to right,#434343,#000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  margin-top: 20px; /* Added margin to separate footer from content */
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+/* Page not found section styles */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Contact us section styles */
+.contactus {
+  margin: 20px 0; /* Added margin to separate from content above and below */
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Product link styles */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+/* Category button styles */
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+
+/* Dashboard styles (Assuming registration form is part of dashboard) */
+.dashboard {
+  margin-top: 100px !important; /* Adjusted margin */
+}
+
+/* Adjusted registration form height and width */
+.register-form {
+  height: 300px; /* Adjusted height */
+  width: 400px; /* Adjusted width */
+}
+
+/* Adjusted login form height */
+.login-form {
+  height: 350px; /* Adjusted height */
+}
+
+/* Dashboard menu styles */
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+/* Body styles */
+body {
+  padding-top: 70px; /* Added padding to prevent content overlap with navbar */
+  margin-bottom: 20px;
+  background-color: #f5f5f5;  /* Added margin to separate body from footer */
+}
